@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/Home.vue'
 import UsersView from '../views/Users.vue'
-
+import UserDetailView from '../views/UserDetails.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -16,6 +16,11 @@ const routes = [
     name: 'Users',
     component: UsersView
   },
+  {
+    path: '/users/:id',
+    name: 'UserDetails',
+    component: UserDetailView
+  }
 ]
 
 const router = new VueRouter({
