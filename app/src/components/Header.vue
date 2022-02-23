@@ -25,7 +25,7 @@
         <template v-slot:activator>
           <v-list-item-title>Administratorzy</v-list-item-title>
         </template>
-          <router-link to="/admins">
+          <router-link to="/users">
             <v-list-item link>
               <v-list-item-title>Użytkownicy</v-list-item-title>
             </v-list-item></router-link>
